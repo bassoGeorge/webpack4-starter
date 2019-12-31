@@ -9,10 +9,5 @@ module.exports = ({mode}) => ({
 				}]
 			}
 		]
-	},
-	output: {
-		filename: mode === 'production'
-			? "[name]-[chunkhash].js"
-			: "[name].js"
 	}
 })
