@@ -1,0 +1,24 @@
+{
+  "name": "webpack4-base-starter",
+  "version": "1.0.0",
+  "description": "Webpack 4 setup based on a preset model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bassoGeorge/webpack4-starter.git"
+  },
+  "keywords": [
+    "WebPack",
+    "Starter",
+    "Base"
+  ],
+  "author": "Anish George <anishgeorgehb@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bassoGeorge/webpack4-starter/issues"
+  },
+  "homepage": "https://github.com/bassoGeorge/webpack4-starter#readme"
+}
