@@ -26,6 +26,7 @@ module.exports = ({mode}) => ({
 			from: projectPath('./src/public')
 		}]),
 	],
+	mode: mode,
 	optimization: {
 		splitChunks: {
 			cacheGroups: {
