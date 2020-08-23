@@ -22,11 +22,13 @@ module.exports = ({mode}) => ({
 		},
 	},
 	plugins     : [
-		new CopyPlugin([{
-			from: projectPath('./src/public')
-		}]),
+		new CopyPlugin({
+			patterns: [{
+				from: projectPath('./src/public')
+			}]
+		}),
 	],
-	mode: mode,
+	mode        : mode,
 	optimization: {
 		splitChunks: {
 			cacheGroups: {
